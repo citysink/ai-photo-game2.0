@@ -1,0 +1,12 @@
+{
+  "name": "ai-photo-game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx netlify dev",
+    "check": "node --check outputs/script.js && node --check outputs/admin.js && node --check netlify/functions/get-today-question.js && node --check netlify/functions/get-question-by-date.js && node --check netlify/functions/create-question.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4"
+  }
+}

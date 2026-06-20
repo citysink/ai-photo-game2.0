@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>发布题目 - AI照片分辨游戏</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">ARCHIVE CONTROL · SAMPLE INGEST</p>
+          <h1>发布每日题目</h1>
+          <p class="tagline">导入 4 到 6 张影像样本，建立每日视觉鉴定任务。</p>
+        </div>
+        <div class="hero-side">
+          <a class="archive-btn admin-link" href="index.html">返回首页</a>
+        </div>
+      </header>
+
+      <section class="admin-panel">
+        <form id="adminForm" class="admin-form">
+          <div class="form-grid">
+            <label>
+              管理员密码
+              <input id="adminPassword" type="password" autocomplete="current-password" required />
+            </label>
+            <label>
+              题目日期
+              <input id="questionDate" type="date" required />
+            </label>
+          </div>
+
+          <label>
+            题目标题
+            <input id="questionTitleInput" type="text" maxlength="80" required />
+          </label>
+
+          <label>
+            题目说明
+            <textarea id="questionDescriptionInput" rows="3" required></textarea>
+          </label>
+
+          <label>
+            题型
+            <select id="questionTypeInput" required>
+              <option value="single">single 单选</option>
+              <option value="multiple">multiple 多选</option>
+              <option value="indefinite">indefinite 不定项选择</option>
+            </select>
+          </label>
+
+          <div class="upload-zone" id="uploadZone">
+            <input id="imageFiles" class="upload-input" type="file" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" multiple />
+            <strong>导入影像样本</strong>
+            <span>或点击选择图片，支持一次多选，也可以一张一张添加</span>
+          </div>
+          <p class="admin-note">原图单张最大 8MB。发布前会自动压缩到最长边 1600px，压缩后单张不超过 1.5MB，总大小控制在 4MB 以内。</p>
+
+          <div id="adminImageList" class="admin-image-list"></div>
+
+          <div class="actions">
+            <button id="publishBtn" class="submit-btn" type="submit">发布今日题目</button>
+            <button id="deleteQuestionBtn" class="delete-btn" type="button">删除该日期题目</button>
+            <p id="adminStatus" class="selection-hint">等待填写题目信息</p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">请勿上传隐私图片、人脸特写、聊天记录、身份证、学生证等敏感内容</footer>
+    <script src="admin.js"></script>
+  </body>
+</html>

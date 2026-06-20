@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e7efe8"/>
+  <rect y="340" width="800" height="260" fill="#916c4d"/>
+  <ellipse cx="405" cy="390" rx="224" ry="86" fill="#f5f6ef"/>
+  <path d="M244 382 C260 320 348 302 420 318 C522 340 596 382 548 432 C488 494 306 462 244 382Z" fill="#e0aa42"/>
+  <path d="M300 365 C350 338 412 390 476 350 C510 330 546 354 560 380" fill="none" stroke="#bd6a38" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="378" cy="388" r="44" fill="#f7e6a1"/>
+  <circle cx="378" cy="388" r="24" fill="#f5b33b"/>
+  <path d="M96 520 C230 490 345 527 494 496 C612 472 705 492 800 474 L800 600 H0 V540Z" fill="#775337"/>
+  <text x="400" y="72" text-anchor="middle" fill="#314536" font-family="Arial" font-size="34" font-weight="700">鸡蛋煎饼</text>
+</svg>

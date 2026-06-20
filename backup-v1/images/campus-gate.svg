@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9dcff"/>
+      <stop offset="1" stop-color="#f4fbff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <rect y="390" width="800" height="210" fill="#b8d9bc"/>
+  <path d="M0 470 C150 425 250 445 400 410 C540 378 642 420 800 382 L800 600 L0 600Z" fill="#829d75"/>
+  <rect x="142" y="235" width="516" height="48" rx="8" fill="#d9b277"/>
+  <rect x="172" y="280" width="64" height="160" fill="#bc8751"/>
+  <rect x="564" y="280" width="64" height="160" fill="#bc8751"/>
+  <rect x="286" y="292" width="228" height="148" fill="#3f5368"/>
+  <path d="M286 292 L400 210 L514 292Z" fill="#8c453a"/>
+  <path d="M0 532 C150 504 236 517 400 492 C564 467 655 490 800 458 L800 600 L0 600Z" fill="#d5d3c5"/>
+  <circle cx="104" cy="166" r="54" fill="#78b56f"/>
+  <circle cx="685" cy="185" r="70" fill="#6aa666"/>
+  <text x="400" y="75" text-anchor="middle" fill="#1f3f5b" font-family="Arial" font-size="34" font-weight="700">校园门口</text>
+</svg>

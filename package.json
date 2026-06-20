@@ -1,0 +1,19 @@
+﻿{
+  "name": "ai-photo-game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run check",
+    "check": "node --check outputs/script.js && node --check outputs/admin.js && node --check src/worker.mjs && node --check netlify/functions/api.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "dev:netlify": "npx netlify-cli dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.0.7",
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.20.0"
+  }
+}

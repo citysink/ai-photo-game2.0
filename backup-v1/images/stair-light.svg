@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e9edf1"/>
+  <polygon points="0,450 800,280 800,600 0,600" fill="#a8b0bb"/>
+  <g fill="#c6ccd4">
+    <polygon points="0,450 800,280 800,326 0,496"/>
+    <polygon points="0,508 800,338 800,382 0,552"/>
+    <polygon points="0,568 800,398 800,442 0,600"/>
+  </g>
+  <g stroke="#586575" stroke-width="12" stroke-linecap="round">
+    <path d="M130 145 L680 95"/>
+    <path d="M130 145 L85 520"/>
+    <path d="M238 136 L210 500"/>
+    <path d="M362 125 L340 470"/>
+    <path d="M478 114 L460 440"/>
+    <path d="M605 103 L585 410"/>
+  </g>
+  <circle cx="604" cy="143" r="78" fill="#fff2a8" opacity=".75"/>
+  <path d="M60 255 C180 210 298 250 420 205 C540 160 662 202 760 162" fill="none" stroke="#ffffff" stroke-width="22" opacity=".5"/>
+  <text x="400" y="72" text-anchor="middle" fill="#293645" font-family="Arial" font-size="34" font-weight="700">楼梯光影</text>
+</svg>

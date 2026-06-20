@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI照片分辨游戏</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-field" aria-hidden="true"></div>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">AI VISUAL LAB · DAILY VISUAL FORENSICS</p>
+          <h1>AI照片分辨游戏</h1>
+          <p class="tagline">一间每日开放的影像鉴定实验室，判断哪些画面来自生成模型。</p>
+          <div class="hero-signals" aria-hidden="true">
+            <span>IMAGE AUTHENTICATION ARCHIVE</span>
+            <span>STATUS: ACTIVE</span>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="date-card">
+            <span>今日日期</span>
+            <strong id="todayText">--</strong>
+          </div>
+          <button id="archiveBtn" class="archive-btn" type="button">往期题目</button>
+        </div>
+      </header>
+
+      <section id="emptyState" class="empty-state hidden">
+        <h2 id="emptyTitle">今日暂无题目，请明天再来</h2>
+        <p id="emptyText">出题人还在挑图中。先让眼睛休息一下。</p>
+      </section>
+
+      <section id="archivePanel" class="archive-panel hidden">
+        <div class="archive-head">
+          <div>
+            <h2>往期题目</h2>
+            <p>翻一翻之前的挑战，看看当时的眼力还在线吗。</p>
+          </div>
+        </div>
+        <div id="archiveList" class="archive-list"></div>
+      </section>
+
+      <section id="quizPanel" class="quiz-panel hidden">
+        <div class="case-stamp" aria-hidden="true">
+          <span>CASE FILE</span>
+          <strong>DAY'S CHALLENGE</strong>
+          <em>STATUS: ACTIVE</em>
+        </div>
+        <div class="question-head">
+          <div>
+            <span id="typeBadge" class="type-badge">单选</span>
+            <h2 id="questionTitle">今日题目</h2>
+            <p id="questionDescription"></p>
+          </div>
+          <p id="answeredNote" class="answered-note hidden">你今天已经答过啦，结果已为你保留。</p>
+        </div>
+
+        <section class="inspection-tips" aria-label="鉴定提示">
+          <span>鉴定提示</span>
+          <ul>
+            <li>光影</li>
+            <li>材质</li>
+            <li>文字</li>
+            <li>边缘</li>
+            <li>透视</li>
+            <li>噪点</li>
+            <li>背景逻辑</li>
+          </ul>
+        </section>
+
+        <div id="imageGrid" class="image-grid" aria-live="polite"></div>
+
+        <div class="actions">
+          <button id="submitBtn" class="submit-btn" type="button">
+            <span>提交鉴定结果</span>
+            <small>SUBMIT ANALYSIS</small>
+          </button>
+          <p id="selectionHint" class="selection-hint">点图片放大，点卡片下方选择</p>
+        </div>
+
+        <section id="resultPanel" class="result-panel hidden" aria-live="polite">
+          <div id="resultSummary" class="result-summary"></div>
+          <div id="answerList" class="answer-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <div id="previewModal" class="preview-modal hidden" aria-hidden="true">
+      <div class="preview-content" role="dialog" aria-modal="true" aria-label="图片放大预览">
+        <button id="previewCloseBtn" class="preview-close-btn" type="button" aria-label="关闭预览">×</button>
+        <img id="previewImage" src="" alt="" />
+        <p id="previewCaption" class="preview-caption"></p>
+        <p class="preview-help">点击空白处或按 ESC 关闭</p>
+      </div>
+    </div>
+
+    <footer class="footer">本游戏仅供娱乐与视觉观察训练</footer>
+
+    <script src="config.js"></script>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

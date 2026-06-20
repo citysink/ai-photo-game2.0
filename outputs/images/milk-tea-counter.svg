@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f2edf4"/>
+  <rect x="80" y="92" width="640" height="176" rx="16" fill="#59456d"/>
+  <g fill="#f9e7b1">
+    <rect x="130" y="132" width="120" height="24"/>
+    <rect x="295" y="132" width="92" height="24"/>
+    <rect x="440" y="132" width="140" height="24"/>
+    <rect x="610" y="132" width="58" height="24"/>
+    <rect x="154" y="190" width="166" height="22"/>
+    <rect x="374" y="190" width="114" height="22"/>
+    <rect x="535" y="190" width="118" height="22"/>
+  </g>
+  <rect y="360" width="800" height="240" fill="#b89176"/>
+  <g>
+    <rect x="224" y="286" width="92" height="170" rx="18" fill="#e9c58a"/>
+    <rect x="228" y="318" width="84" height="68" fill="#8f5872" opacity=".75"/>
+    <rect x="370" y="270" width="102" height="186" rx="18" fill="#f0d1a3"/>
+    <rect x="376" y="316" width="90" height="68" fill="#865e92" opacity=".75"/>
+    <rect x="526" y="294" width="88" height="162" rx="18" fill="#e7b978"/>
+    <rect x="530" y="330" width="80" height="62" fill="#8b607a" opacity=".75"/>
+  </g>
+  <g stroke="#6f5a7f" stroke-width="7">
+    <path d="M270 286 L250 224"/>
+    <path d="M421 270 L455 218"/>
+    <path d="M570 294 L590 228"/>
+  </g>
+  <text x="400" y="70" text-anchor="middle" fill="#49385b" font-family="Arial" font-size="34" font-weight="700">奶茶柜台</text>
+</svg>

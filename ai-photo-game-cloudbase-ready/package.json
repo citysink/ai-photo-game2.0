@@ -1,0 +1,9 @@
+{
+  "name": "ai-photo-game-cloudbase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check outputs/script.js && node --check outputs/admin.js && node --check cloudfunctions/_shared/index.js && node --check cloudfunctions/get-today-question/index.js && node --check cloudfunctions/get-question-by-date/index.js && node --check cloudfunctions/create-question/index.js && node --check cloudfunctions/delete-question/index.js"
+  },
+  "dependencies": {}
+}

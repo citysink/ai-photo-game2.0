@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#efe8dc"/>
+  <rect x="72" y="90" width="656" height="220" rx="20" fill="#b74e42"/>
+  <rect x="110" y="135" width="130" height="52" fill="#f4d9a3"/>
+  <rect x="290" y="132" width="220" height="56" fill="#f4d9a3"/>
+  <rect x="560" y="136" width="110" height="52" fill="#f4d9a3"/>
+  <rect y="338" width="800" height="262" fill="#9f7052"/>
+  <ellipse cx="380" cy="405" rx="178" ry="74" fill="#f4f6f8"/>
+  <ellipse cx="380" cy="393" rx="124" ry="43" fill="#dfb857"/>
+  <path d="M280 388 C315 372 350 408 386 386 C430 360 470 396 508 376" fill="none" stroke="#8e613a" stroke-width="13" stroke-linecap="round"/>
+  <rect x="560" y="360" width="62" height="118" rx="14" fill="#dfe6eb"/>
+  <text x="400" y="70" text-anchor="middle" fill="#51241f" font-family="Arial" font-size="34" font-weight="700">早餐面馆</text>
+</svg>

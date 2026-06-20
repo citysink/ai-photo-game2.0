@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffbd88"/>
+    <stop offset=".55" stop-color="#f4d6a1"/>
+    <stop offset="1" stop-color="#8fb58d"/>
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <circle cx="642" cy="138" r="76" fill="#ffe3a2"/>
+  <rect y="312" width="800" height="288" fill="#4f9a71"/>
+  <ellipse cx="410" cy="488" rx="430" ry="142" fill="#b64c45"/>
+  <ellipse cx="410" cy="488" rx="350" ry="104" fill="#cf6656"/>
+  <ellipse cx="410" cy="488" rx="270" ry="68" fill="#5d9c70"/>
+  <g stroke="#f7d6c7" stroke-width="7" fill="none" opacity=".86">
+    <ellipse cx="410" cy="488" rx="392" ry="124"/>
+    <ellipse cx="410" cy="488" rx="314" ry="90"/>
+  </g>
+  <g fill="#333f52" opacity=".88">
+    <circle cx="290" cy="323" r="13"/>
+    <rect x="284" y="337" width="12" height="52" rx="6"/>
+    <circle cx="500" cy="345" r="11"/>
+    <rect x="495" y="358" width="10" height="46" rx="5"/>
+  </g>
+  <text x="400" y="72" text-anchor="middle" fill="#633033" font-family="Arial" font-size="34" font-weight="700">操场黄昏</text>
+</svg>

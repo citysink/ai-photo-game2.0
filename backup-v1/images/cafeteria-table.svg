@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e6eef4"/>
+  <rect y="320" width="800" height="280" fill="#b9815e"/>
+  <rect x="70" y="95" width="660" height="210" rx="20" fill="#cbd7df"/>
+  <rect x="105" y="130" width="96" height="130" fill="#8fb0c4"/>
+  <rect x="230" y="125" width="120" height="142" fill="#88a2b1"/>
+  <rect x="392" y="132" width="104" height="128" fill="#8fb0c4"/>
+  <rect x="535" y="124" width="118" height="136" fill="#839bad"/>
+  <ellipse cx="255" cy="395" rx="122" ry="50" fill="#f3f5f1"/>
+  <ellipse cx="255" cy="390" rx="82" ry="30" fill="#efc467"/>
+  <rect x="460" y="350" width="130" height="86" rx="10" fill="#e9eff2"/>
+  <circle cx="515" cy="392" r="35" fill="#b45f4f"/>
+  <path d="M110 505 C250 488 355 520 500 492 C620 469 704 492 800 474 L800 600 H0 V535Z" fill="#9d694e"/>
+  <text x="400" y="70" text-anchor="middle" fill="#243b51" font-family="Arial" font-size="34" font-weight="700">食堂桌面</text>
+</svg>

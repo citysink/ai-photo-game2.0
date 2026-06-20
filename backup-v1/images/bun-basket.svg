@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f1e2c4"/>
+  <rect y="372" width="800" height="228" fill="#c49362"/>
+  <ellipse cx="400" cy="360" rx="294" ry="118" fill="#b9793d"/>
+  <ellipse cx="400" cy="333" rx="270" ry="96" fill="#d19956"/>
+  <g fill="#fff0d4">
+    <circle cx="260" cy="304" r="70"/>
+    <circle cx="356" cy="274" r="76"/>
+    <circle cx="465" cy="278" r="74"/>
+    <circle cx="545" cy="320" r="69"/>
+    <circle cx="396" cy="350" r="84"/>
+  </g>
+  <g stroke="#d9ba85" stroke-width="8" fill="none">
+    <path d="M226 294 C260 272 276 330 304 304"/>
+    <path d="M320 265 C356 238 374 312 402 275"/>
+    <path d="M432 270 C470 242 486 314 512 280"/>
+    <path d="M510 314 C546 292 562 350 588 322"/>
+    <path d="M360 348 C400 318 420 392 454 350"/>
+  </g>
+  <g stroke="#8c5b30" stroke-width="10" opacity=".5">
+    <path d="M154 350 H646"/>
+    <path d="M185 392 H615"/>
+    <path d="M225 424 H575"/>
+  </g>
+  <text x="400" y="72" text-anchor="middle" fill="#6b3e24" font-family="Arial" font-size="34" font-weight="700">蒸笼包子</text>
+</svg>

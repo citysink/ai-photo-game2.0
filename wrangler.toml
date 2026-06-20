@@ -1,0 +1,12 @@
+﻿name = "ai-photo-game"
+main = "src/worker.mjs"
+compatibility_date = "2026-06-20"
+
+[assets]
+directory = "./outputs"
+binding = "ASSETS"
+
+[[kv_namespaces]]
+binding = "QUESTIONS_KV"
+id = "5f529c97a54743bfaa65ace7875d9f80"
+preview_id = "bc7d4c96617449609916b6156c71b813"

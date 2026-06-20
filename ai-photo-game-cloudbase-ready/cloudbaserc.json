@@ -1,0 +1,39 @@
+{
+  "envId": "your-cloudbase-env-id",
+  "functionRoot": "cloudfunctions",
+  "functions": [
+    {
+      "name": "get-today-question",
+      "timeout": 10,
+      "runtime": "Nodejs16.13",
+      "handler": "index.main"
+    },
+    {
+      "name": "get-question-by-date",
+      "timeout": 10,
+      "runtime": "Nodejs16.13",
+      "handler": "index.main"
+    },
+    {
+      "name": "create-question",
+      "timeout": 20,
+      "runtime": "Nodejs16.13",
+      "handler": "index.main"
+    },
+    {
+      "name": "delete-question",
+      "timeout": 20,
+      "runtime": "Nodejs16.13",
+      "handler": "index.main"
+    }
+  ],
+  "hosting": {
+    "public": "outputs",
+    "ignore": [
+      "cloudfunctions/**",
+      "node_modules/**",
+      ".env",
+      ".env.local"
+    ]
+  }
+}

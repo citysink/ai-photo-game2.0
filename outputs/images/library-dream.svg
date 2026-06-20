@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f3e8d2"/>
+  <rect x="80" y="95" width="640" height="380" rx="18" fill="#806247"/>
+  <g fill="#c99858">
+    <rect x="120" y="130" width="120" height="300"/>
+    <rect x="260" y="118" width="126" height="312"/>
+    <rect x="405" y="135" width="118" height="295"/>
+    <rect x="542" y="112" width="128" height="318"/>
+  </g>
+  <g stroke="#5b422e" stroke-width="8">
+    <path d="M120 190H240M120 250H240M120 314H240M120 377H240"/>
+    <path d="M260 181H386M260 247H386M260 300H386M260 372H386"/>
+    <path d="M405 198H523M405 252H523M405 326H523M405 381H523"/>
+    <path d="M542 172H670M542 244H670M542 319H670M542 366H670"/>
+  </g>
+  <circle cx="406" cy="246" r="74" fill="#f5f0df" opacity=".82"/>
+  <path d="M338 520 C390 450 486 450 540 520Z" fill="#b88457"/>
+  <path d="M70 500 C180 470 250 512 395 482 C530 454 632 487 734 462 L760 600 H40Z" fill="#d5bf98"/>
+  <text x="400" y="72" text-anchor="middle" fill="#503b2c" font-family="Arial" font-size="34" font-weight="700">图书馆角落</text>
+</svg>
